@@ -190,7 +190,7 @@ components/
 1. **Design, elements size, colors**
    - I believe that overall look of App can be improved
 2. **Animations, hover effects, interactions**
-   - The App can be made to feel more "alive" and engaging
+   - The App can be made more "alive" and engaging
 
 ## 6. Possible improvements
    - Bottom part of App looks empty. We need to add nav bar with "Tasks", "Wallet", "Profile" tabs. Maybe even more.
