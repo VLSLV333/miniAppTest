@@ -1,0 +1,50 @@
+.rewardsText{
+    font-size: 0.675rem;
+}
+.modalContainer{
+    margin: 0 auto;
+}
+
+@media (min-width: 340px){
+    .rewardsText{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 580px ) and (min-height: 481px) {
+    .modalContainer{
+        margin: auto;
+    } 
+}
+
+@media (max-height: 480px){
+    .modalContainer .modalHeader{
+        padding: 0px;
+        padding-bottom: 0.25rem;
+    }
+    .modalContainer .modalImage{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .modalContainer .modalHeaderTextContainer{
+        gap: 0rem;
+    }
+    .modalContainer .modalHeaderHeading{
+        font-size: 0.75rem;
+    }
+    .modalContainer .modalHeaderID{
+        font-size: 0.55rem;
+    }
+    .modalContainer .modalBody{
+        padding-top: 0.125rem;
+    }
+    .modalContainer .modalBodyTasksContainer{
+        padding-top: 0.25rem;
+    }
+    .modalContainer .modalFooter{
+        padding: 0px;
+    }
+    .modalContainer .modalFooterButton{
+        height: 2rem;
+    }
+}
