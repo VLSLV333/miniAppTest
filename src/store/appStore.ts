@@ -95,7 +95,7 @@ export const useAppStore = create<AppState>((set) => ({
             const task = s.tasks.find((t) => t.id === id);
             if (!task || task.status !== 'in_progress') return {};
 
-            taskCompleted = Math.random() > 0.75;
+            taskCompleted = Math.random() > 0.5;
 
             if (!taskCompleted) return {};
 

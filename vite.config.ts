@@ -7,6 +7,6 @@ export default defineConfig({
     host: true,
     port: 5173,
     strictPort: true,
-    allowedHosts: ['pipefish-top-titmouse.ngrok-free.app', '.ngrok-free.app']
+    allowedHosts: ['unsatirical-leonarda-bossily.ngrok-free.app', '.ngrok-free.app']
   }
 })
