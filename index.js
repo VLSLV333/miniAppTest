@@ -1,7 +1,10 @@
 import 'dotenv/config';
 import ngrok from '@ngrok/ngrok';
 
-const listener = await ngrok.connect({ addr: 5173, authtoken_from_env: true , domain: 'pipefish-top-titmouse.ngrok-free.app'});
+const listener = await ngrok.connect({ 
+    addr: 5173, authtoken_from_env: true , 
+    domain: 'pipefish-top-titmouse.ngrok-free.app'
+});
 console.log('ngrok lisening at:', listener.url());
 
 process.stdin.resume();

@@ -148,6 +148,8 @@ components/
    - Save your token in `.env` file : NGROK_AUTHTOKEN=YourTokenHere
    - Go to https://dashboard.ngrok.com/domains while logged in. Click "+ New Domain"
    - Copy your random domain
+   - Open `index.js` file in project root
+   - Find domain key, its value pair is string. Paste your copied domain as the only value to domain key.
    - Open `vite.config.ts` file in project root
    - Find allowedHosts key, its value pair is array. Paste your copied domain in that array.
 
