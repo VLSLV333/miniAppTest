@@ -1,0 +1,9 @@
+.balanceBox {
+    padding: 0.5rem 0.5rem;
+}
+
+@media (min-width: 390px) {
+    .balanceBox {
+        padding: 0.75rem 1.875rem;
+    }
+}

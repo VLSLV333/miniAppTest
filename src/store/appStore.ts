@@ -32,15 +32,14 @@ interface AppState {
 }
 
 export const useAppStore = create<AppState>((set) => ({
-    balance: {dc: 0, tickets: 0, usdt: 0},
+    balance: {dc: 134.221, tickets: 10, usdt: 0},
     tasks: [
         {
             "id":"1",
             "title":"Qzino App - Заработай 20 USDT",
-            "icon":"https://placehold.co/64x64/4CAF50/FFFFFF?text=Q",
+            "icon":"https://placehold.co/64x64/83B63A/FFFFFF?text=Q",
             "rewards": [
                 {type: "DC", amount: 150},
-                {type: "USDT", amount: 0.25},
                 {type: "ticket", amount: 10}
             ],
             "steps":[
@@ -56,7 +55,7 @@ export const useAppStore = create<AppState>((set) => ({
         {
             "id":"2",
             "title":"Подписаться на канал Major",
-            "icon":"https://placehold.co/64x64/2196F3/FFFFFF?text=M",
+            "icon":"https://placehold.co/64x64/7428F5/FFFFFF?text=M",
             "rewards": [
                 {type: "DC", amount: 50},
                 {type: "ticket", amount: 1},
@@ -72,7 +71,7 @@ export const useAppStore = create<AppState>((set) => ({
         {
             "id":"3",
             "title":"Пройти квиз о криптовалютах",
-            "icon":"https://placehold.co/64x64/6c46ff/FFFFFF?text=Q",
+            "icon":"https://placehold.co/64x64/83B63A/FFFFFF?text=Q",
             "rewards": [
                 {type: "DC", amount: 100}
             ],

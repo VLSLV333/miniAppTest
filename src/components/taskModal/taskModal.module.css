@@ -1,50 +1,87 @@
-.rewardsText{
-    font-size: 0.675rem;
-}
-.modalContainer{
-    margin: 0 auto;
+.rewardsText {
+    font-size: 0.75rem;
+    font-weight: 700;
 }
 
-@media (min-width: 340px){
-    .rewardsText{
+.modalContainer {
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.modalImage {
+    width: 86px;
+    height: 86px;
+}
+
+.modalHeaderID {
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.modalBody {
+    padding: 0px;
+}
+.modalFooter{
+    padding: 0px;
+}
+
+@media (min-width: 340px) {
+    .rewardsText {
         font-size: 0.75rem;
     }
 }
 
-@media (min-width: 580px ) and (min-height: 481px) {
-    .modalContainer{
+@media (min-width: 580px) and (min-height: 481px) {
+    .modalContainer {
         margin: auto;
-    } 
+    }
 }
 
-@media (max-height: 480px){
-    .modalContainer .modalHeader{
+@media (max-height: 480px) {
+    .modalContainer {
+        padding-top: 0.5rem;
+        gap: 0px;
+    }
+
+    .modalContainer .modalHeader {
         padding: 0px;
         padding-bottom: 0.25rem;
     }
-    .modalContainer .modalImage{
+
+    .modalContainer .modalImage {
         width: 2.5rem;
         height: 2.5rem;
     }
-    .modalContainer .modalHeaderTextContainer{
+
+    .modalContainer .modalHeaderTextContainer {
         gap: 0rem;
     }
-    .modalContainer .modalHeaderHeading{
+
+    .modalContainer .modalHeaderHeading {
         font-size: 0.75rem;
     }
-    .modalContainer .modalHeaderID{
+
+    .modalContainer .modalHeaderID {
         font-size: 0.55rem;
     }
-    .modalContainer .modalBody{
+
+    .modalContainer .modalBody {
         padding-top: 0.125rem;
     }
-    .modalContainer .modalBodyTasksContainer{
+
+    .modalContainer .modalBodyTasksContainer {
         padding-top: 0.25rem;
     }
-    .modalContainer .modalFooter{
+
+    .modalContainer .modalFooter {
         padding: 0px;
+        padding-top: 0.2rem;
     }
-    .modalContainer .modalFooterButton{
-        height: 2rem;
+
+    .modalContainer .modalFooterButton {
+        height: 1.7rem;
     }
 }
